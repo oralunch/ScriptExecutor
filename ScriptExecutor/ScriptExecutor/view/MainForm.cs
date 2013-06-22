@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Diagnostics;
 using Oracle.DataAccess.Client;
+using ScriptExecutor.view;
 
 namespace ScriptExecutor
 {
@@ -14,8 +15,8 @@ namespace ScriptExecutor
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            Executor ex = new Executor();
-            ex.Init("orcl", "sys", "oracle");
+            frmLogin login = new frmLogin();
+            login.ShowDialog();
         }
     }
 }

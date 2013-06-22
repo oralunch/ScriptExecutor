@@ -28,15 +28,5 @@ namespace ScriptExecutor
             this.appUserID = userID;
             this.appPassword = password;
         }
-
-        public void Init(string dataSource, string sysUserID,string sysPassword)
-        {
-            
-        }
-
-        public bool CheckAppSchema(string dataSource)
-        {
-
-        }
     }
 }
