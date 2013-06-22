@@ -1,0 +1,23 @@
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\bin\Debug\ScriptExecutor.exe
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\bin\Debug\ScriptExecutor.pdb
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\ScriptExecutor.Form1.resources
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\ScriptExecutor.Properties.Resources.resources
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe
+C:\Users\Lunch\AppData\Local\Temporary Projects\ScriptExecutor\obj\x86\Debug\ScriptExecutor.pdb
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.pdb
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.manifest
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.application
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.pdb
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.Properties.Resources.resources
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe.manifest
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.application
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.frmMain.resources
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config

@@ -1,0 +1,13 @@
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Release\ScriptExecutor.exe.manifest
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Release\ScriptExecutor.application
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Release\ScriptExecutor.exe
+D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Release\ScriptExecutor.pdb
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ResolveAssemblyReference.cache
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.Form1.resources
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.Properties.Resources.resources
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\GenerateResource.read.1.tlog
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\GenerateResource.write.1.tlog
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.exe.manifest
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.application
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.exe
+D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Release\ScriptExecutor.pdb
