@@ -20,7 +20,3 @@ D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.writ
 D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe.manifest
 D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.application
 D:\document\c#\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.frmMain.resources
-D:\document\c#\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config
-C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config
-C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe
-C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.pdb

@@ -47,24 +47,15 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScriptExecutor.exe" size="12288">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScriptExecutor.exe" size="10240">
       <assemblyIdentity name="ScriptExecutor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ezgdmDGkqjeSEWjQ2kcNcawal7E=</dsig:DigestValue>
+        <dsig:DigestValue>o/93/+L/rjX/aO1KyMK5x304Oqc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ScriptExecutor.exe.config" size="77">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>w7WNgu5MxCvL4DAgISBxgwmhDzU=</dsig:DigestValue>
-    </hash>
-  </file>
 </asmv1:assembly>
