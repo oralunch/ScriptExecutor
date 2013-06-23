@@ -18,17 +18,7 @@ namespace ScriptExecutor.view
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void frmLogin_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            this.Hide();
+            this.Close();
         }
     }
 }

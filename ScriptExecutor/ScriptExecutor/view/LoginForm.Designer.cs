@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.grbLogin = new System.Windows.Forms.GroupBox();
-            this.lblUserName = new System.Windows.Forms.Label();
-            this.txbUserName = new System.Windows.Forms.TextBox();
-            this.txbPassword = new System.Windows.Forms.TextBox();
-            this.lblPassword = new System.Windows.Forms.Label();
             this.txbDataSource = new System.Windows.Forms.TextBox();
             this.lblDataSource = new System.Windows.Forms.Label();
+            this.txbPassword = new System.Windows.Forms.TextBox();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.txbUserName = new System.Windows.Forms.TextBox();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.grbLogin.SuspendLayout();
@@ -55,21 +55,21 @@
             this.grbLogin.TabStop = false;
             this.grbLogin.Text = "Login";
             // 
-            // lblUserName
+            // txbDataSource
             // 
-            this.lblUserName.AutoSize = true;
-            this.lblUserName.Location = new System.Drawing.Point(50, 21);
-            this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(59, 12);
-            this.lblUserName.TabIndex = 0;
-            this.lblUserName.Text = "username:";
+            this.txbDataSource.Location = new System.Drawing.Point(115, 72);
+            this.txbDataSource.Name = "txbDataSource";
+            this.txbDataSource.Size = new System.Drawing.Size(100, 21);
+            this.txbDataSource.TabIndex = 5;
             // 
-            // txbUserName
+            // lblDataSource
             // 
-            this.txbUserName.Location = new System.Drawing.Point(115, 18);
-            this.txbUserName.Name = "txbUserName";
-            this.txbUserName.Size = new System.Drawing.Size(100, 21);
-            this.txbUserName.TabIndex = 1;
+            this.lblDataSource.AutoSize = true;
+            this.lblDataSource.Location = new System.Drawing.Point(32, 75);
+            this.lblDataSource.Name = "lblDataSource";
+            this.lblDataSource.Size = new System.Drawing.Size(77, 12);
+            this.lblDataSource.TabIndex = 4;
+            this.lblDataSource.Text = "data source:";
             // 
             // txbPassword
             // 
@@ -87,21 +87,21 @@
             this.lblPassword.TabIndex = 2;
             this.lblPassword.Text = "password:";
             // 
-            // txbDataSource
+            // txbUserName
             // 
-            this.txbDataSource.Location = new System.Drawing.Point(115, 72);
-            this.txbDataSource.Name = "txbDataSource";
-            this.txbDataSource.Size = new System.Drawing.Size(100, 21);
-            this.txbDataSource.TabIndex = 5;
+            this.txbUserName.Location = new System.Drawing.Point(115, 18);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.Size = new System.Drawing.Size(100, 21);
+            this.txbUserName.TabIndex = 1;
             // 
-            // lblDataSource
+            // lblUserName
             // 
-            this.lblDataSource.AutoSize = true;
-            this.lblDataSource.Location = new System.Drawing.Point(32, 75);
-            this.lblDataSource.Name = "lblDataSource";
-            this.lblDataSource.Size = new System.Drawing.Size(77, 12);
-            this.lblDataSource.TabIndex = 4;
-            this.lblDataSource.Text = "data source:";
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Location = new System.Drawing.Point(50, 21);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(59, 12);
+            this.lblUserName.TabIndex = 0;
+            this.lblUserName.Text = "username:";
             // 
             // btnLogin
             // 
@@ -111,7 +111,6 @@
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "login";
             this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
@@ -135,7 +134,6 @@
             this.MaximizeBox = false;
             this.Name = "frmLogin";
             this.Text = "Login";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmLogin_FormClosed);
             this.grbLogin.ResumeLayout(false);
             this.grbLogin.PerformLayout();
             this.ResumeLayout(false);
