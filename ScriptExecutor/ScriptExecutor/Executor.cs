@@ -7,7 +7,7 @@ namespace ScriptExecutor
 {
     class Executor
     {
-        private ConfigurationHelper confHelper;
+        private ConfigurationHelper configHelper;
         private string tracePath;
         private string scriptPath;
 
@@ -25,9 +25,9 @@ namespace ScriptExecutor
 
         public Executor()
         {
-            confHelper = new ConfigurationHelper();
-            tracePath = confHelper.GetAppConfig("tracePath");
-            scriptPath = confHelper.GetAppConfig("scriptPath");
+            configHelper = new ConfigurationHelper();
+            tracePath = configHelper.GetAppConfig("tracePath");
+            scriptPath = configHelper.GetAppConfig("scriptPath");
         }
     }
 }
