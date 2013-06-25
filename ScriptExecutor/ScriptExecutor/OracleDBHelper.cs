@@ -12,22 +12,22 @@ namespace ScriptExecutor
 
         public string UserID
         {
-            set { connStrBuilder.UserID = value; }
+            set { this.connStrBuilder.UserID = value; }
         }
 
         public string Password
         {
-            set { connStrBuilder.Password = value; }
+            set { this.connStrBuilder.Password = value; }
         }
 
         public string DBAPrivilege
         {
-            set { connStrBuilder.DBAPrivilege = value; }
+            set { this.connStrBuilder.DBAPrivilege = value; }
         }
 
         public string DataSource
         {
-            set { connStrBuilder.DataSource = value; }
+            set { this.connStrBuilder.DataSource = value; }
         }
 
         public int MinPoolSize

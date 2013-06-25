@@ -7,9 +7,21 @@ namespace ScriptExecutor
 {
     class Executor
     {
-        ConfigurationHelper confHelper;
-        string tracePath;
-        string scriptPath;
+        private ConfigurationHelper confHelper;
+        private string tracePath;
+        private string scriptPath;
+
+        public string TracePath
+        {
+            get { return tracePath; }
+            set { tracePath = value; }
+        }
+
+        public string ScriptPath
+        {
+            get { return scriptPath; }
+            set { scriptPath = value; }
+        }
 
         public Executor()
         {
