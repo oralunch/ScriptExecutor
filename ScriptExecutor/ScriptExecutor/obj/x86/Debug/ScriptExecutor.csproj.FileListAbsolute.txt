@@ -37,3 +37,8 @@ C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.pdb
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config
+C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.frmMain.resources
+C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.write.1.tlog

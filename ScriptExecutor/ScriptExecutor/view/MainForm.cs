@@ -2,7 +2,6 @@
 using System.Windows.Forms;
 using System.Diagnostics;
 using Oracle.DataAccess.Client;
-using ScriptExecutor.view;
 
 namespace ScriptExecutor
 {
@@ -15,8 +14,8 @@ namespace ScriptExecutor
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            frmLogin login = new frmLogin();
-            login.ShowDialog();
+            ConfigurationHelper ch = new ConfigurationHelper();
+            ch.UpdateAppConfig("configName", "value1");
         }
     }
 }

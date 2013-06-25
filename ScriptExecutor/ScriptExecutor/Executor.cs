@@ -7,26 +7,15 @@ namespace ScriptExecutor
 {
     class Executor
     {
-        private string appUserID;
+        ConfigurationHelper confHelper;
+        string tracePath;
+        string scriptPath;
 
-        private string appPassword;
-
-        public string AppUserID
+        public Executor()
         {
-            set { this.appUserID = value; }
-        }
-
-        public string AppPassword
-        {
-            set { this.appPassword = value; }
-        }
-
-        public Executor() { }
-
-        public Executor(string userID, string password)
-        {
-            this.appUserID = userID;
-            this.appPassword = password;
+            confHelper = new ConfigurationHelper();
+            tracePath = confHelper.GetAppConfig("tracePath");
+            scriptPath = confHelper.GetAppConfig("scriptPath");
         }
     }
 }
