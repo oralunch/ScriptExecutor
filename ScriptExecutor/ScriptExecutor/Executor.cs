@@ -1,4 +1,6 @@
-﻿
+﻿using System.Collections;
+using System.IO;
+
 namespace ScriptExecutor
 {
     class Executor
@@ -24,6 +26,20 @@ namespace ScriptExecutor
             configHelper = new ConfigurationHelper();
             tracePath = configHelper.GetAppConfig("tracePath");
             scriptPath = configHelper.GetAppConfig("scriptPath");
+        }
+
+        public ArrayList GetScript()
+        {
+            DirectoryInfo dirInfo = new DirectoryInfo(scriptPath);
+            FileInfo[] scriptInfo = dirInfo.GetFiles();
+            ArrayList script = new ArrayList();
+
+            foreach (FileInfo scriptFile in scriptInfo)
+            {
+                script.Add(scriptFile.FullName);
+            }
+
+            return script;
         }
     }
 }

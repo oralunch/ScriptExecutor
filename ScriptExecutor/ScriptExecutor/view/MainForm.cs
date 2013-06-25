@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Diagnostics;
 using Oracle.DataAccess.Client;
+using System.Collections;
 
 namespace ScriptExecutor
 {
@@ -14,8 +15,12 @@ namespace ScriptExecutor
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            ConfigurationHelper ch = new ConfigurationHelper();
-            ch.UpdateAppConfig("configName", "value1");
+            Executor ex = new Executor();
+            ex.ScriptPath = @"D:\document\tmp\ScriptExecutor\script";
+            foreach (string str in ex.GetScript())
+            {
+                MessageBox.Show(str);
+            }
         }
     }
 }

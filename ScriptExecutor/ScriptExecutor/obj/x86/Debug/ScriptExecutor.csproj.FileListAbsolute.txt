@@ -33,7 +33,6 @@ C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin
 C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.pdb
 C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe.manifest
 C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.application
-C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.view.frmLogin.resources
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.exe
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.pdb
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config
@@ -42,3 +41,4 @@ C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\Scrip
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\ScriptExecutor.Properties.Resources.resources
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\Administrator\My Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Lunch\Documents\GitHub\ScriptExecutor\ScriptExecutor\ScriptExecutor\bin\Debug\ScriptExecutor.exe.config
