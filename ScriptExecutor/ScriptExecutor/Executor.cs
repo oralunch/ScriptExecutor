@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.IO;
+using System;
 
 namespace ScriptExecutor
 {
@@ -28,16 +29,19 @@ namespace ScriptExecutor
             scriptPath = configHelper.GetAppConfig("scriptPath");
         }
 
-        public ArrayList GetScript()
+        public Array GetScript()
         {
             DirectoryInfo dirInfo = new DirectoryInfo(scriptPath);
             FileInfo[] scriptInfo = dirInfo.GetFiles();
-            ArrayList script = new ArrayList();
+            ArrayList scriptArr = new ArrayList();
 
             foreach (FileInfo scriptFile in scriptInfo)
             {
-                script.Add(scriptFile.FullName);
+                scriptArr.Add(scriptFile.FullName);
             }
+
+            Array script = scriptArr.ToArray(typeof(string));
+            Array.Sort(script);
 
             return script;
         }
