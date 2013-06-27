@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.IO;
 using System;
+using System.Diagnostics;
 
 namespace ScriptExecutor
 {
@@ -29,13 +30,17 @@ namespace ScriptExecutor
             scriptPath = configHelper.GetAppConfig("scriptPath");
         }
 
+        /// <summary>
+        /// 返回ScriptPath中排序后的脚本名(含路径)
+        /// </summary>
+        /// <returns></returns>
         public Array GetScript()
         {
             DirectoryInfo dirInfo = new DirectoryInfo(scriptPath);
             FileInfo[] scriptInfo = dirInfo.GetFiles();
             ArrayList scriptArr = new ArrayList();
 
-            foreach (FileInfo scriptFile in scriptInfo)
+            foreach (FileInfo scriptFile in scriptInfo.o)
             {
                 scriptArr.Add(scriptFile.FullName);
             }
@@ -44,6 +49,28 @@ namespace ScriptExecutor
             Array.Sort(script);
 
             return script;
+        }
+
+        public void Execute()
+        {
+            Process proc = new Process();
+            proc.StartInfo.CreateNoWindow = true;
+            proc.StartInfo.UseShellExecute = false;
+            proc.StartInfo.RedirectStandardOutput = true;
+
+            foreach (string script in this.GetScript())
+            {
+                proc.StartInfo.FileName = "sqlplus";
+                proc.StartInfo.Arguments = "sys/oracle@localhost:1521/orcl as sysdba @" + script;
+                System.Windows.Forms.MessageBox.Show(script);
+
+                proc.Start();
+                string output = proc.StandardOutput.ReadToEnd();
+                System.Windows.Forms.MessageBox.Show(output);
+            }
+
+            //proc.WaitForExit();
+            proc.Close();
         }
     }
 }

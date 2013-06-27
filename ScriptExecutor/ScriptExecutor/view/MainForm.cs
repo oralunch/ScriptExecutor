@@ -16,11 +16,8 @@ namespace ScriptExecutor
         private void frmMain_Load(object sender, EventArgs e)
         {
             Executor ex = new Executor();
-            ex.ScriptPath = @"C:\Documents and Settings\Administrator\桌面\TODO\script";
-            foreach (string str in ex.GetScript())
-            {
-                MessageBox.Show(str);
-            }
+            ex.ScriptPath = @"D:\document\tmp\ScriptExecutor\script";
+            ex.Execute();
         }
     }
 }
