@@ -10,6 +10,8 @@ namespace ScriptExecutor
         private ConfigurationHelper configHelper;
         private string tracePath;
         private string scriptPath;
+        private string user;
+        private string password;
 
         public string TracePath
         {
@@ -21,6 +23,18 @@ namespace ScriptExecutor
         {
             get { return scriptPath; }
             set { scriptPath = value; }
+        }
+
+        public string User
+        {
+            get { return user; }
+            set { user = value; }
+        }
+
+        public string Password
+        {
+            get { return password; }
+            set { password = value; }
         }
 
         public Executor()
@@ -40,7 +54,7 @@ namespace ScriptExecutor
             FileInfo[] scriptInfo = dirInfo.GetFiles();
             ArrayList scriptArr = new ArrayList();
 
-            foreach (FileInfo scriptFile in scriptInfo.o)
+            foreach (FileInfo scriptFile in scriptInfo)
             {
                 scriptArr.Add(scriptFile.FullName);
             }
@@ -61,16 +75,26 @@ namespace ScriptExecutor
             foreach (string script in this.GetScript())
             {
                 proc.StartInfo.FileName = "sqlplus";
-                proc.StartInfo.Arguments = "sys/oracle@localhost:1521/orcl as sysdba @" + script;
-                System.Windows.Forms.MessageBox.Show(script);
+                proc.StartInfo.Arguments = " sys/oracle@localhost:1521/orcl as sysdba @" + script;
 
                 proc.Start();
-                string output = proc.StandardOutput.ReadToEnd();
-                System.Windows.Forms.MessageBox.Show(output);
+                WriteTrace(proc.StandardOutput.ReadToEnd());
             }
 
             //proc.WaitForExit();
             proc.Close();
+        }
+
+        public void WriteTrace(string trace)
+        {
+            string fileName = tracePath + '/' + this.user + ".txt";
+            FileStream fileStream = new FileStream(fileName, FileMode.Append);
+            System.Windows.Forms.MessageBox.Show(tracePath + this.user + ".txt");
+            StreamWriter streamWriter = new StreamWriter(fileStream);
+            streamWriter.Write(trace);
+            streamWriter.Flush();
+            streamWriter.Close();
+            fileStream.Close();
         }
     }
 }
